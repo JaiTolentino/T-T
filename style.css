@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+menu {
+    background-color: #6096B4;
+    display: grid;
+    grid-template-columns: 80% 10% 10%;
+    opacity: 90%;
+}
+
+.menucon {
+    position: fixed;
+    width: 100vw;
+}
+
+#registerbutton {
+    width: 5vw;
+    height: 3vh;
+    font-size: 80%;
+}
+#signinbutton {
+    width: 5vw;
+    height: 3vh;
+    font-size: 80%;
+}
+#homebutton {
+    width: 5vw;
+    height: 3vh;
+    font-size: 80%;
+}
+
+.headerbg {
+    background-image: url(boracay.jpg);
+    background-size: cover;
+    opacity: 100%;
+    width: 33vw;
+    height: 55vh;
+}
+.headerbg2 {
+    background-image:url(palawan.jpg);
+    background-size: cover;
+    margin-left: 100%;
+    opacity: 100%;
+    width: 33vw;
+    height: 55vh;
+}
+.headerbg3 {
+    background-image:url(puertogalera.jpg);
+    background-size: cover;
+    margin-left: 100%;
+    opacity: 100%;
+    width: 33vw;
+    height: 55vh;
+}
+
+.optcon {
+    padding-top: 60px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 60px;
+}
+
+.options{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+}
+
+.bg2con {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #93BFCF;
+    height: 13vh;
+    width: 70vw;
+}
+
+.loccon {
+    padding-left: 5%;
+}
+
+.locationscon {
+
+    display: inline-grid;
+    grid-gap: 10%;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+#location {
+    background-color: #93BFCF;
+    width: 25vw;
+    height: 25vw;
+}
+
+.padding {
+    padding-top: 7%;
+}
+
+h3 {
+    padding-left: 4%;
+}
+#international {
+
+    background-color: #93BFCF;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 14vw;
+    height: 30vh;
+}
+
+.internationalcon {
+    display: flex;
+    gap: 10px;
+}
+
+footer {
+    background-color: #EEE9DA;
+}
+
+.snscon {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+}
+
+.businessinfo {
+    display: block;
+    width: 67%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.credits {
+    display: block;
+    width: 27%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #757575;
+    font-size: smaller;
+}
